@@ -1,0 +1,89 @@
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.button {
+    display: block;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: #0dcaf0;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+}
+
+.button:hover {
+    background-color: #0dcaf0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.hover-div {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0); */
+    font-size: 20px;
+}
+
+.hover-div:hover {
+    /* box-shadow: 0 5px 15px rgba(0,0,0,0.3); */
+}
+.inputt {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.inputt:focus {
+    box-shadow: 0 5px 15px cyan;
+
+}
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+}
+
+.input:focus {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.text {
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}

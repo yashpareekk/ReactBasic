@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-moz-transition-timing-function",
+          "width: fit-content"
+        ]
+      }
+    ]
+  }
+}

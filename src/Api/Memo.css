@@ -1,0 +1,50 @@
+
+html, 
+body { 
+	height: 100%; 
+	margin: 0; 
+	padding: 0; 
+} 
+
+
+
+.content { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+	justify-content: center; 
+	padding: 1rem 2rem; 
+    margin-top: 40px;
+} 
+
+#top { 
+	color: rgb(0, 0, 0); 
+} 
+
+blockquote { 
+	background-color: rgba(255, 255, 255, 0.2); 
+	padding: 20px; 
+	border-radius: 5px; 
+	margin: 10px; 
+} 
+
+button { 
+	display: inline-block; 
+	padding: 10px 20px; 
+	font-size: 16px; 
+	text-align: center; 
+	text-decoration: none; 
+	border: 2px solid #23870e; 
+	border-radius: 20px; 
+	background-color: #23870e; 
+	color: #ffffff; 
+	cursor: pointer; 
+	transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease; 
+	margin: 10px; 
+} 
+
+
+.button-container { 
+	display: flex; 
+	justify-content: center; 
+}

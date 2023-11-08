@@ -1,0 +1,42 @@
+body {
+    background-color: aliceblue;
+}
+.Appp{
+    margin-top: 60px;
+}
+ 
+.joke {
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+}
+ 
+h1 {
+    text-align: center;
+    color: black;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0dcaf0;
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color .5s;
+}
+ 
+button:hover {
+    background-color: #0da8f0;
+}
+ 
+button:active {
+    background-color: black;
+}
