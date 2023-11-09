@@ -7,12 +7,24 @@ const Joke = () => {
         fetchApi();
     }, []);
 
-    const fetchApi = () => {
-        fetch("https://sv443.net/jokeapi/v2/joke/Programming?type=single")
-            .then((res) => res.json())
-            .then((data) => setJoke(data.joke));
-    };
+    // const fetchApi = () => {
+    //     fetch("https://sv443.net/jokeapi/v2/joke/Programming?type=single")
+    //         .then((res) => console.log(res.json()))
+    //         // .then((data) => setJoke(data.joke));
+    // };
 
+
+    const fetchApi = async() => {
+      try {
+      let response =   await fetch("https://sv443.net/jokeapi/v2/joke/Programming?type=single");
+      let data = await response.json();
+      setJoke(data.joke)
+      } 
+      catch (error) {
+        console.log(error)
+      }
+            
+    };
     return (
         <div className="Appp">
             <h1>API using UseEffect</h1>

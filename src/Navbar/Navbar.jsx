@@ -23,6 +23,9 @@ const Navbar = () => {
             <Link to="/text" className="nav-link mx-2 active">Event Handler</Link>
             </li>
             <li className="nav-item">
+            <Link to="/dropdown" className="nav-link mx-2 active">DropDown</Link>
+            </li>
+            <li className="nav-item">
               <Link to='/hooks' className="nav-link mx-2 active" >Hooks</Link>
             </li>
             <li className="nav-item">
